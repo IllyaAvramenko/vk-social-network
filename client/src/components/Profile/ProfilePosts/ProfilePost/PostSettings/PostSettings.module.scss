@@ -1,0 +1,51 @@
+.post__settings {
+   color: #aeb7c2;
+
+   svg {
+      cursor: pointer;
+   }
+
+   &_menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      position: absolute;
+      opacity: 1;
+      visibility: 1;
+      transform: translate(-183px, 0px);
+      background: white;
+      min-width: 206px;
+      max-width: 230px;
+      width: auto;
+      padding: 5px 0px;
+
+      border: 1px solid #dce1e6;
+      border-radius: 4px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.32);
+      transition: opacity 100ms linear,top 100ms linear,bottom 100ms linear, visibility 100ms linear;
+
+      button {
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         
+         cursor: pointer;
+         border: 0;
+         text-decoration: none;
+         background: transparent;
+         color: black;
+         transition: all 0.1s ease-in-out;
+
+         height: 30px;
+         width: 100%;
+         padding: 7px 15px;
+         margin: 0;
+
+         &:hover {
+            background-color: rgba(174, 183, 194, 0.12);
+         }
+      }
+   }
+}

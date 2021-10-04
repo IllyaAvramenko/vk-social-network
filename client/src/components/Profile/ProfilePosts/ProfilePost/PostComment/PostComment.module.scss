@@ -1,0 +1,13 @@
+.comment {
+   display: flex;
+   padding: 4px 12px;
+   border-radius: 32px;
+   color: #99a2ad;
+   background-color: #f0f2f5;
+   transition: all 0.2s ease-in-out;
+   cursor: pointer;
+
+   svg {
+      cursor: pointer;
+   }
+}

@@ -1,0 +1,41 @@
+.item {
+   border-radius: 4px;
+   transition: all 0.1s ease-in-out;
+
+   
+   &:hover {
+      background-color: rgba(0, 20, 51, 0.07);
+   }
+
+   &Wrapper {
+      display: flex;
+      padding: 0.5em;
+   }
+
+   &Icon {
+      padding-right: 10px;
+      display: flex;
+      align-items: center;
+      color: rgba(76, 117, 163, 1);
+   }
+
+   &Text {
+
+      p {
+      margin: 0;
+      }
+   }
+
+   a {
+      color: black;
+      text-decoration: none;
+   }
+
+   .activeLink {
+      p {
+      color:rgba(76, 117, 163, 1)
+      }
+   }
+}
+ 
+ 
